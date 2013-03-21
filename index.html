@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+	<TITLE>Integracia widgetov</TITLE>
+	<LINK href="dijit/themes/claro/claro.css" rel="stylesheet">
+	<LINK href="sample.css" rel="stylesheet">
+	<META charset="UTF-8">
+</HEAD>
+<BODY class="claro">
+	<H1>Integracia widgetov</H1>
+	<TABLE>
+		<TR>
+			<TD>
+				<DIV data-dojo-type="./MainWidget" id="main"></DIV>
+			</TD>
+			<TD>
+				<DIV data-dojo-type="./PickerWidget" id="picker"></DIV>
+			</TD>
+		</TR>
+	</TABLE>
+	<SCRIPT src="dojo/dojo.js" data-dojo-config="async: 1,tlmSiblingOfDojo: true"></SCRIPT>
+	<SCRIPT>
+		require(["./sample.js"]);
+	</SCRIPT>
+</BODY>
+</HTML>

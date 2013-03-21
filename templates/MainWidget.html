@@ -1,0 +1,23 @@
+<DIV>
+	<DIV data-dojo-type="dijit/TitlePane" data-dojo-props="toggleable:false" title="Main">
+		<FORM data-dojo-attach-event="onSubmit: _handleSubmit" data-dojo-type="dijit/form/Form" data-dojo-attach-point="form" method="post">
+			<UL>
+				<LI>
+					<LABEL for="_1" title="Internal data">Internal data</LABEL>
+					<INPUT id="_1" name="internal" data-dojo-type="dijit/form/ValidationTextBox">
+				</LI>
+				<LI>
+					<LABEL for="_2" title="External data 1">External data 1</LABEL>
+					<INPUT id="_2" name="external1" data-dojo-type="dijit/form/ValidationTextBox" data-dojo-attach-point="externalData1TB">
+					<BUTTON data-dojo-attach-event="onClick: onDisplayData1" type="button" data-dojo-type="dijit/form/Button" data-dojo-attach-point="picker1Btn" data-dojo-props="label:'Pick'"></BUTTON>
+				</LI>
+				<LI>
+					<LABEL for="_3" title="External data 2">External data 2</LABEL>
+					<INPUT id="_3" name="external2" data-dojo-type="dijit/form/ValidationTextBox" data-dojo-attach-point="externalData2TB">
+					<BUTTON data-dojo-attach-event="onClick: onDisplayData2" type="button" data-dojo-type="dijit/form/Button" data-dojo-attach-point="picker2Btn" data-dojo-props="label:'Pick'"></BUTTON>
+				</LI>
+			</UL>
+			<BUTTON type="submit" data-dojo-type="dijit/form/Button" data-dojo-attach-point="submitBtn" data-dojo-props="label:'Submit'"></BUTTON>
+		</FORM>
+	</DIV>
+</DIV>

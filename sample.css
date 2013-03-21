@@ -1,0 +1,13 @@
+.appMainWidget li {
+	list-style: none;
+}
+
+.appMainWidget li label {
+	width: 7em;
+	display: inline-block;
+}
+
+.appPickerWidget .dgrid {
+	height: 110px;
+	width: 400px;
+}
