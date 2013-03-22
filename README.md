@@ -21,3 +21,5 @@ Usage
 2. In Main widget click on Pick button. Corresponding data is displayed in picker.
 3. Select data in Picker widget. Selected data is transfered to Main widget.
 4. Click Submit button to write form data to browser console.
+
+Please send any questions to dojo@gratex.com
